@@ -58,6 +58,7 @@
     }
     img#photo {
         margin-left: 0!important;
+        display: none!important;
     }
     div#top-page {
         width: 100%!important;
@@ -98,7 +99,7 @@ img#photo {
     top: 13%;
     left: 60%;
     animation: appear 3s ease;
-    width: 60vh;
+    width: 30%;
 }
 
 div#top-page {
@@ -228,8 +229,11 @@ p#footer-para {
 .card {
     background-color: #46454F;
     text-align: center;
-    height: fit-content;
+    height: 100%;
     transition: all 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fade {
@@ -241,6 +245,10 @@ p#footer-para {
 .fade.visible {
     opacity: 1;
     transform: translate(0, 0);
+}
+
+.card.fixed {
+    height: 160px;
 }
   
 .card:hover {
@@ -270,7 +278,7 @@ p#footer-para {
     color:white;
     font-size: 18px;
     padding: 0 10px;
-    height: fit-content;  
+    height: 100%;  
     width:fit-content; 
 }
 
