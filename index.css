@@ -241,7 +241,7 @@ p#footer-para {
     transform: translate(0,8vh);
     transition: all 0.5s;
 }
-  
+
 .fade.visible {
     opacity: 1;
     transform: translate(0, 0);
